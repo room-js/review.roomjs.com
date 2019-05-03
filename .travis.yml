@@ -1,13 +1,13 @@
 language: node_js
 node_js:
   - "10"
-before_install:
-  - sudo apt-get install git
 script:
   - npm run build
 deploy:
   provider: pages
   local_dir: "dist"
+  github_token: $GITHUB_TOKEN
+  fqdn: review.roomjs.com
   skip_cleanup: true
   keep_history: true
   on:
