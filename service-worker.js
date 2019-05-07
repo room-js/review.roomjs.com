@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.daca084b001055555e89e90c171e960d.js"
+  "/precache-manifest.6ff1664af6adf77c3ac1723ca4ced6e6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "review.roomjs.com"});
